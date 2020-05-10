@@ -6,4 +6,4 @@ With AHC each observation is initially regarded as a cluster of its own. In cont
 It starts with the root, where all objects are included in one cluster. Afterward, the most heterogeneous clusters are iteratively divided until
 all observations are in their own cluster. The output of hierarchical clustering is a tree-based representation of the observations, called a dendrogram. 
 The observations could be subdivided into groups by cutting the dendrogram at the desired similarity level. In this project, the USArrests 
-dataset was used to perform hierarchical clustering. The dataset contains the number of arrests for murder, assault, and rape for each of the 50 states in 1973.
+dataset was used to perform hierarchical clustering using R. The dataset contains the number of arrests for murder, assault, and rape for each of the 50 states in 1973.
